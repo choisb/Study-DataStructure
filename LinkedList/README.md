@@ -1,8 +1,13 @@
 # Linked List
 
-### Linked List란?
-- dkdkdk
-- rkrkrkr
-  - dkdkrkk
-  - dkdkrj
-### Linked List 를 사용하는 이유?
+## 목차
+- 추상 자료형: Abstract Data Type (ADT)
+  - 추상 자료형 이란?
+  - 추상 자료형의 예시
+  - 자료구조 학습에 추상자료형 정의 적용
+
+___
+
+___
+
+## 배열을 이용한 리스트의 구현
