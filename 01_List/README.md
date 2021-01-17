@@ -1,9 +1,9 @@
 ﻿# List
 ## 📝 목차
-- (리스트 자료구조의 이해)[https://github.com/choisb/Study-DataStructure/tree/master/01_List#-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EC%9D%98-%EC%9D%B4%ED%95%B4]
-- (리스트 자료구조의 구현)[https://github.com/choisb/Study-DataStructure/tree/master/01_List#-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EC%9D%98-%EA%B5%AC%ED%98%84]
-- (리스트에 구조체 변수 저장하기)[https://github.com/choisb/Study-DataStructure/tree/master/01_List#-%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%97%90-%EA%B5%AC%EC%A1%B0%EC%B2%B4-%EB%B3%80%EC%88%98-%EC%A0%80%EC%9E%A5%ED%95%98%EA%B8%B0]
-- (배열기반 리스트의 장점과 단점)[https://github.com/choisb/Study-DataStructure/tree/master/01_List#-%EB%B0%B0%EC%97%B4%EA%B8%B0%EB%B0%98-%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%9D%98-%EC%9E%A5%EC%A0%90%EA%B3%BC-%EB%8B%A8%EC%A0%90]
+- [리스트 자료구조의 이해](https://github.com/choisb/Study-DataStructure/tree/master/01_List#-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EC%9D%98-%EC%9D%B4%ED%95%B4)
+- [리스트 자료구조의 구현](https://github.com/choisb/Study-DataStructure/tree/master/01_List#-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EC%9D%98-%EA%B5%AC%ED%98%84)
+- [리스트에 구조체 변수 저장하기](https://github.com/choisb/Study-DataStructure/tree/master/01_List#-%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%97%90-%EA%B5%AC%EC%A1%B0%EC%B2%B4-%EB%B3%80%EC%88%98-%EC%A0%80%EC%9E%A5%ED%95%98%EA%B8%B0)
+- [배열기반 리스트의 장점과 단점](https://github.com/choisb/Study-DataStructure/tree/master/01_List#-%EB%B0%B0%EC%97%B4%EA%B8%B0%EB%B0%98-%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%9D%98-%EC%9E%A5%EC%A0%90%EA%B3%BC-%EB%8B%A8%EC%A0%90)
 
 ___
 ## ✔ 리스트 자료구조의 이해
@@ -62,7 +62,7 @@ int LCount(List* plist);
 ```
 
 ##### 리스트의 ADT를 기반으로 정의된 main 함수
-> (`ListMain.c`)[https://github.com/choisb/Study-DataStructure/blob/master/01_List/ArrayList/ListMain.c]
+> [`ListMain.c`](https://github.com/choisb/Study-DataStructure/blob/master/01_List/ArrayList/ListMain.c)
 
 `main()`함수에서 사용자가 `List`를 어떻게 사용할 수 있는지 몇 가지 상황을 살펴보자.
 - 리스트의 생성 및 초기화
@@ -112,7 +112,7 @@ int LCount(List* plist);
     ```
 
 ##### 배열 기반 리스트 구현하기
-> (`ArrayList` 소스)[https://github.com/choisb/Study-DataStructure/tree/master/01_List/ArrayList]  
+> [`ArrayList` 소스](https://github.com/choisb/Study-DataStructure/tree/master/01_List/ArrayList)
 
 - 소스코드에서 리스트의 삽입, 탐색, 삭제 과정을 잘 살펴보자.
 
@@ -134,7 +134,7 @@ int LCount(List* plist);
     ``` 
 ___
 ## ✔ 리스트에 구조체 변수 저장하기
-> (`PointArrayList` 소스)[https://github.com/choisb/Study-DataStructure/tree/master/01_List/PointArrayList]
+> [`PointArrayList` 소스](https://github.com/choisb/Study-DataStructure/tree/master/01_List/PointArrayList)
 - 실제로 리스트에서는 구조체 변수를 비롯해서 각종 데이터들이 저장된다.
 - 이번 예제에서는 Point 구조체를 데이터로 저장해본다.
 
