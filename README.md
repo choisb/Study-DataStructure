@@ -8,7 +8,7 @@
 
 ## 📝프로젝트 목차
 - [자료구조란] (https://github.com/choisb/Study-DataStructure#-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EB%9E%80)
-- [추상 자료형: Abstract Data Type (ADT)] (https://github.com/choisb/Study-DataStructure#-✔ 추상 자료형: Abstract Data Type (ADT))
+- [추상 자료형: Abstract Data Type (ADT)] (https://github.com/choisb/Study-DataStructure/blob/master/README.md#-%EC%B6%94%EC%83%81-%EC%9E%90%EB%A3%8C%ED%98%95-abstract-data-type-adt)
 - List
 - Linked List
    - Doubly Linked List
