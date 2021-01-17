@@ -182,7 +182,8 @@ int main()
 ``` 
 - 데이터를 삭제하는 부분을 살펴보면, `main()`함수에서 사용자가 직접 메모리 해제를 하는 것을 볼 수 있다.
 - 일반적인 리스트는 메모리의 해제까지 책임을 지지 않는다.
-- 이를 위해서 `LRemove`함수는 삭제된 데이터를 반환하도록 디자인된 것이다.
+- 이를 위해서 `LRemove`함수는 삭제된 데이터를 반환하도록 디자인된 것이다.  
+
 [(위로)](https://github.com/choisb/Study-DataStructure/tree/master/01_List#list) / [(처음으로)](https://github.com/choisb/Study-DataStructure/blob/master/README.md#data-structure)
 ___
 ## ✔ 배열기반 리스트의 장점과 단점
@@ -195,5 +196,6 @@ ___
 
 - 배열 기반 리스트의 오해
   - 보통 리스트라고 하면 연결 리스트만을 떠올리고, 배열 기반 리스트는 불필요하다는 오해가 있다.
-  - 배열 리스트가 가진 장점은 연결 리스트가 가질 수 없는 장점인 만큼, 충분히 가치가 있는 자료구조이고, 배열 기반 리스트는 실제 실무에서도 사용된다.
+  - 배열 리스트가 가진 장점은 연결 리스트가 가질 수 없는 장점인 만큼, 충분히 가치가 있는 자료구조이고, 배열 기반 리스트는 실제 실무에서도 사용된다.  
+  
 [(위로)](https://github.com/choisb/Study-DataStructure/tree/master/01_List#list) / [(처음으로)](https://github.com/choisb/Study-DataStructure/blob/master/README.md#data-structure)
