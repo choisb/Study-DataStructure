@@ -9,7 +9,7 @@
 ## 📝프로젝트 목차
 - [자료구조란](https://github.com/choisb/Study-DataStructure#-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EB%9E%80)
 - [추상 자료형: Abstract Data Type (ADT)](https://github.com/choisb/Study-DataStructure/blob/master/README.md#-%EC%B6%94%EC%83%81-%EC%9E%90%EB%A3%8C%ED%98%95-abstract-data-type-adt)
-- List
+- [List](https://github.com/choisb/Study-DataStructure/tree/master/01_List#list)
 - Linked List
    - Doubly Linked List
    - Sigly Linked List 
@@ -69,7 +69,8 @@ n의 크기가 커질 수록 최고차항의 비중이 압도적이게 되기 �
 - **O(nlogn)**: 선형로그형 Big-O. 데이터가 증가하는 속도보다 연산량이 조금더 증가하는 알고리즘. 이에 해당하는 알고리즘이 많음.
 - **O(n^2^)**: 데이터 수의 제곱에 해당하는 연산횟수를 요구하는 알고리즘. 데이터의 양이 많은 경우 적용하기가 다소 부적절한 알고리즘.
 - **O(n^3^)**: 데이터 수의 세 제곱에 해당하는 연산횟수를 요구하는 알고리즘. 주로 삼중 중첩 반복문에서 발생하며 그냥 적용하기에 부적절한 알고리즘.
- 
+
+[(위로)](https://github.com/choisb/Study-DataStructure/blob/master/README.md#data-structure) / [(처음으로)](https://github.com/choisb/Study-DataStructure/blob/master/README.md#data-structure)
 ___
 ## ✔ 추상 자료형: Abstract Data Type (ADT)
 ##### 추상 자료형 이란?
@@ -100,3 +101,5 @@ void PutMoney(Wallet *pw, int coinNum, int billNum);
   - 자료구조의 ADT를 정의한다.
   - ADT를 근거로 자료구조를 사용하는 main 함수를 정의한다. (사용자측 코드)
   - ADT를 근거로 자료구조를 구현한다.
+
+[(위로)](https://github.com/choisb/Study-DataStructure/blob/master/README.md#data-structure) / [(처음으로)](https://github.com/choisb/Study-DataStructure/blob/master/README.md#data-structure)
