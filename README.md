@@ -7,8 +7,8 @@
 - 본 프로젝트는 윤성우 저자의 열혈 자료구조를 바탕으로 정리하였습니다.
 
 ## 📝프로젝트 목차
-- 자료구조란
-- 추상 자료형: Abstract Data Type (ADT)
+- [자료구조란] (https://github.com/choisb/Study-DataStructure#-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EB%9E%80)
+- [추상 자료형: Abstract Data Type (ADT)] (https://github.com/choisb/Study-DataStructure#-✔ 추상 자료형: Abstract Data Type (ADT))
 - List
 - Linked List
    - Doubly Linked List
