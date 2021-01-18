@@ -1,7 +1,7 @@
 ﻿# List
 ## 📝 목차
 - [리스트 자료구조의 이해](https://github.com/choisb/Study-DataStructure/tree/master/01_List#-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EC%9D%98-%EC%9D%B4%ED%95%B4)
-- [리스트 자료구조의 구현](https://github.com/choisb/Study-DataStructure/tree/master/01_List#-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EC%9D%98-%EA%B5%AC%ED%98%84)
+- [배열 기반 순차 리스트 구현](https://github.com/choisb/Study-DataStructure/tree/master/01_List#-%EB%B0%B0%EC%97%B4-%EA%B8%B0%EB%B0%98-%EC%88%9C%EC%B0%A8-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EA%B5%AC%ED%98%84)
 - [리스트에 구조체 변수 저장하기](https://github.com/choisb/Study-DataStructure/tree/master/01_List#-%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%97%90-%EA%B5%AC%EC%A1%B0%EC%B2%B4-%EB%B3%80%EC%88%98-%EC%A0%80%EC%9E%A5%ED%95%98%EA%B8%B0)
 - [배열기반 리스트의 장점과 단점](https://github.com/choisb/Study-DataStructure/tree/master/01_List#-%EB%B0%B0%EC%97%B4%EA%B8%B0%EB%B0%98-%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%9D%98-%EC%9E%A5%EC%A0%90%EA%B3%BC-%EB%8B%A8%EC%A0%90)
 
@@ -14,8 +14,8 @@ ___
 
 리스트라는 자료구조는 **구현 방법**에 따라서 다음의 두가지로 나뉜다. 
 즉, 리스트라고 해서 반드시 연결 리스트를 의미하는 것은 아니다.
-- 순차 리스트: 배열을 기반으로 구현된 리스트
-- 연결 리스트: 메모리의 동적 할당을 기반으로 구현된 리스트 
+- [순차 리스트: 배열을 기반으로 구현된 리스트](https://github.com/choisb/Study-DataStructure/tree/master/01_List#-%EB%B0%B0%EC%97%B4-%EA%B8%B0%EB%B0%98-%EC%88%9C%EC%B0%A8-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EA%B5%AC%ED%98%84)
+- [연결 리스트: 메모리의 동적 할당을 기반으로 구현된 리스트](https://github.com/choisb/Study-DataStructure/tree/master/02_LinkedList#linked-list)
 
 ##### 리스트 자료구조의 공통된 특성
 순차 리스트와 연결 리스트는 구현 방법에 따라 구분된다.이 둘의 ADT는 동일 할 수도 있고 상황에 따라 다를 수도 있다. 
