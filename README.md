@@ -11,9 +11,10 @@
 - [자료구조란](https://github.com/choisb/Study-DataStructure/blob/master/README.md#-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EB%9E%80)
 - [추상 자료형: Abstract Data Type (ADT)](https://github.com/choisb/Study-DataStructure/blob/master/README.md#-%EC%B6%94%EC%83%81-%EC%9E%90%EB%A3%8C%ED%98%95-abstract-data-type-adt)
 - [List](https://github.com/choisb/Study-DataStructure/tree/master/01_List#list)
-- Linked List
-   - Doubly Linked List
-   - Sigly Linked List 
+  - [배열기반 리스트: ArrayList](https://github.com/choisb/Study-DataStructure/tree/master/01_List#-%EB%B0%B0%EC%97%B4-%EA%B8%B0%EB%B0%98-%EC%88%9C%EC%B0%A8-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EA%B5%AC%ED%98%84)
+  / [소스](https://github.com/choisb/Study-DataStructure/tree/master/01_List/ArrayList)
+  - [연결 리스트: Linked List](https://github.com/choisb/Study-DataStructure/tree/master/02_LinkedList#linked-list)
+  / [소스](https://github.com/choisb/Study-DataStructure/tree/master/02_LinkedList#linked-list)
 - Stack and Queue
 - Tree
    - Binary Tree
