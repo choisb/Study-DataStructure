@@ -22,11 +22,12 @@ ___
 하지만 이 두 리스트 자료구조의 **가장 기본적이고도 중요한 특성**은 다음과 같다.
 
 - 리스트 자료구조는 데이터를 나란히 저장한다.
-- 리스트 자료구조는 중복된 데이터의 저장을 막지 않는다.
+- 리스트 자료구조는 중복된 데이터의 저장을 막지 않는다.  
+
 [(위로)](https://github.com/choisb/Study-DataStructure/tree/master/01_List#list) / [(처음으로)](https://github.com/choisb/Study-DataStructure/blob/master/README.md#data-structure)
 
 ___
-## ✔ 리스트 자료구조의 구현
+## ✔ 배열 기반 순차 리스트 구현
 - 배열을 기반으로 구현된 순차 리스트를 구현한다.
 - 구현의 순서는 다음과 같다.
   - 리스트 자료구조의 추상 자료형(ADT) 정의
