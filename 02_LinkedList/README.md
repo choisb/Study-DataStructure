@@ -1,8 +1,8 @@
 ﻿# Linked List
 ##  📝목차
-- [(연결 리스트의 이해)]
-- [(단순 연결 리스트 구현)]
-- [(단순 연결 리스트 응용)]
+- [연결 리스트의 이해](https://github.com/choisb/Study-DataStructure/tree/master/02_LinkedList#-%EC%97%B0%EA%B2%B0-%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%9D%98-%EC%9D%B4%ED%95%B4)
+- [단순 연결 리스트 구현](https://github.com/choisb/Study-DataStructure/tree/master/02_LinkedList#-%EB%8B%A8%EC%88%9C-%EC%97%B0%EA%B2%B0-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EA%B5%AC%ED%98%84)
+- [단순 연결 리스트 응용](https://github.com/choisb/Study-DataStructure/tree/master/02_LinkedList#-%EB%8B%A8%EC%88%9C-%EC%97%B0%EA%B2%B0-%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%9D%98-%EC%9D%91%EC%9A%A9)
 
 [(처음으로)](https://github.com/choisb/Study-DataStructure/blob/master/README.md#data-structure)
 
@@ -23,6 +23,8 @@ ___
 - 단순 연결 리스트
 - 더블 연결 리스트
 - 순환 리스트 ... (나중에 추가)
+
+[(위로)](https://github.com/choisb/Study-DataStructure/tree/master/02_LinkedList#linked-list) / [(처음으로)](https://github.com/choisb/Study-DataStructure/blob/master/README.md#data-structure)
 ___
 ## ✔ 단순 연결 리스트 구현
 - 단순 연결 리스트는 연결의 형타가 한쪽 방향으로 전개되고 시작과 끝이 분명히 존재한다.
@@ -133,6 +135,9 @@ typedef struct _linkedList
 ##### 단순 연결 리스트 구현
 - 단순 연결 리스트 구현의 상세 내용에 대해서는 소스코드의 주석으로 대체.
 - [`DlinkedList` 소스](https://github.com/choisb/Study-DataStructure/tree/master/02_LinkedList/DLinkedList)
+
+[(위로)](https://github.com/choisb/Study-DataStructure/tree/master/02_LinkedList#linked-list) / [(처음으로)](https://github.com/choisb/Study-DataStructure/blob/master/README.md#data-structure)
+
 ___
 ## ✔ 단순 연결 리스트의 응용
 - 앞선 예제에서는 `Ldata`를 `int`로 선언하여서 사용하였다.
@@ -192,3 +197,4 @@ ___
             return 1;   
     }
     ```
+[(위로)](https://github.com/choisb/Study-DataStructure/tree/master/02_LinkedList#linked-list) / [(처음으로)](https://github.com/choisb/Study-DataStructure/blob/master/README.md#data-structure)
