@@ -7,7 +7,7 @@
 - 본 프로젝트는 윤성우 저자의 열혈 자료구조를 바탕으로 정리하였습니다.
 - 본 프로젝트에서 자료구조 구현에 대한 자세한 설명은 가급적 소스코드 내의 주석으로 대체하며, 각 자료구조의 특징 및 구현 시 특별히 살펴봐야할 지점만 부연 설명을 진행. 
 
-## 📝프로젝트 목차
+## 📝 프로젝트 목차
 - [자료구조란](https://github.com/choisb/Study-DataStructure/blob/master/README.md#-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EB%9E%80)
 - [추상 자료형: Abstract Data Type (ADT)](https://github.com/choisb/Study-DataStructure/blob/master/README.md#-%EC%B6%94%EC%83%81-%EC%9E%90%EB%A3%8C%ED%98%95-abstract-data-type-adt)
 - [List](https://github.com/choisb/Study-DataStructure/tree/master/01_List#list)
@@ -109,3 +109,4 @@ void PutMoney(Wallet *pw, int coinNum, int billNum);
   - ADT를 근거로 자료구조를 구현한다.
 
 [(위로)](https://github.com/choisb/Study-DataStructure/blob/master/README.md#data-structure) / [(처음으로)](https://github.com/choisb/Study-DataStructure/blob/master/README.md#data-structure)
+___

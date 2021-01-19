@@ -1,5 +1,5 @@
 ﻿# Circular Linked List
-##  📝목차
+##  📝 목차
 - [원형 연결 리스트의 이해](https://github.com/choisb/Study-DataStructure/tree/master/03_CircularLinkedList#-원형-연결-리스트의-이해)
 - [원형 연결 리스트의 구현](https://github.com/choisb/Study-DataStructure/tree/master/03_CircularLinkedList#-원형-연결-리스트의-구현)
 ___
@@ -32,7 +32,7 @@ ___
 ## ✔ 원형 연결 리스트의 구현
 - 원형 연결 리스트 구현의 상세 내용에 대해서는 소스코드의 주석으로 대체.
   - [`CLinkedList` 소스](https://github.com/choisb/Study-DataStructure/tree/master/03_CircularLinkedList/CLinkedList)
-- 아래에는 단순 연결 리스트의 ADT와 구현과정에 등장하는 몇 가지 주요 아이디어만 서술.
+- 아래에는 원형 연결 리스트의 ADT와 구현과정에 등장하는 몇 가지 주요 아이디어만 서술.
  
 ##### 원형 연결 리스트의 ADT
 
@@ -65,7 +65,7 @@ int LNext(List * plist, LData * pdata);
 // 리스트의 끝에 도달할 경우 첫 노드부터 다시 조회한다.
 // 참조 성공 시 TRUE(1), 실패 시 FALSE(0) 반환
 
-LData LRemove(List * pdata);
+LData LRemove(List * plist);
 // LFirst 또는 LNext 함수의 마지막 반환 데이터를 삭제한다.
 // 삭제된 데이터는 반환된다.
 // 마지막 반환 데이터를 삭제하므로 연이은 반복 호출을 허용하지 않는다.
@@ -78,9 +78,20 @@ int LCount(List * plist);
 ##### 노드의 삽입
 - 원형 연결 리스트의 시작부분에 새로운 노드를 삽입하는 것은 직관적으로 간단하다.
   - `tail`의 `next`가 노드의 시작이기 때문이다.
+  > CLinkedList.c
     ```c
-    newNode->next = plist->tail->next;
-    plist->tail->next = newNode;
+    ...
+    int LFirst(List * plist, LData * pdata)
+    {
+        if (plist->tail == NULL)
+            return FALSE;
+        plist->before = plist->tail;
+        plist->cur = plist->tail->next;
+
+        *pdata = plist->cur->data;
+        return TRUE;
+    }
+    ...
     ``` 
 ![원형 연결 리스트 삽입(앞쪽)](../img/06_CircularLinkedListInsert01.png)
 
@@ -93,14 +104,21 @@ int LCount(List * plist);
   - 리스트의 앞쪽에 노드를 삽입 후
   - `tail`을 순 방향으로 한칸 앞을 가리키게 한다.
   - 결과적으로 `tail`이 새로운 노드 `5`를 가리키게 되면서 마지막 위치에 노드가 삽입된 것과 동일해진돠.
+
 ![원형 연결 리스트 삽입(뒤쪽 삽입 방법)](../img/08_CircularLinkedListInsert03.png)
-```c
-void LInsert(List * plist, LData data) // 꼬리에 노드 추가
-{
-    // 꼬리에 노드 추가하는 것은 결국 머리에 노드를 추가한 것에 
-    //tail이 가리키는 노드를 한칸 옆으로 이동한 결과와 동일하다.
-    LInsertFront(plist, data);
-    plist->tail = plist->tail->next;    
-}
-```
+- 아래와 같이 `LInsertFront()` 함수 호출 후 `tail`을 조정한다.
+
+  > CLinkedList.c
+    ```c
+    ...
+    void LInsert(List * plist, LData data) // 꼬리에 노드 추가
+    {
+        // 꼬리에 노드 추가하는 것은 결국 머리에 노드를 추가한 것에 
+        // tail이 가리키는 노드를 한칸 옆으로 이동한 결과와 동일하다.
+        LInsertFront(plist, data);
+        plist->tail = plist->tail->next;    
+    }
+    ...
+    ```
 [(위로)](https://github.com/choisb/Study-DataStructure/tree/master/03_CircularLinkedList) / [(처음으로)](https://github.com/choisb/Study-DataStructure/blob/master/README.md#data-structure)
+___

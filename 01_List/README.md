@@ -200,3 +200,4 @@ ___
   - 배열 리스트가 가진 장점은 연결 리스트가 가질 수 없는 장점인 만큼, 충분히 가치가 있는 자료구조이고, 배열 기반 리스트는 실제 실무에서도 사용된다.  
   
 [(위로)](https://github.com/choisb/Study-DataStructure/tree/master/01_List#list) / [(처음으로)](https://github.com/choisb/Study-DataStructure/blob/master/README.md#data-structure)
+___

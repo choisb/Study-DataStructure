@@ -1,5 +1,5 @@
 ﻿# Linked List
-##  📝목차
+## 📝 목차
 - [연결 리스트의 이해](https://github.com/choisb/Study-DataStructure/tree/master/02_LinkedList#-%EC%97%B0%EA%B2%B0-%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%9D%98-%EC%9D%B4%ED%95%B4)
 - [단순 연결 리스트 구현](https://github.com/choisb/Study-DataStructure/tree/master/02_LinkedList#-%EB%8B%A8%EC%88%9C-%EC%97%B0%EA%B2%B0-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EA%B5%AC%ED%98%84)
 - [단순 연결 리스트 응용](https://github.com/choisb/Study-DataStructure/tree/master/02_LinkedList#-%EB%8B%A8%EC%88%9C-%EC%97%B0%EA%B2%B0-%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%9D%98-%EC%9D%91%EC%9A%A9)
@@ -71,7 +71,7 @@ int LNext(List * plist, LData * pdata);
 // 참조를 새로 시작하려면 먼저 LFirst 함수를 호출해야 한다.
 // 참조 성공 시 TRUE(1), 실패 시 FALSE(0) 반환
 
-LData LRemove(List * pdata);
+LData LRemove(List * plist);
 // LFirst 또는 LNext 함수의 마지막 반환 데이터를 삭제한다.
 // 삭제된 데이터는 반환된다.
 // 마지막 반환 데이터를 삭제하므로 연이은 반복 호출을 허용하지 않는다.
@@ -82,8 +82,9 @@ int LCount(List * plist);
 void SetSortRule(List * plist, int (*comp)(LData d1, LData d2));
 // 리스트에 정렬의 기준이 되는 함수를 등록한다.
 ```
-
+##### 콜백 함수를 이용한 정렬함수
 - `SetSortRule()`함수를 살펴보자. 데이터를 정렬하기 위해서는 **데이터의 크기를 비교**할 수 있어야 한다.
+
 - 데이터가 정수라면 쉽게 비교할 수 있지만 데이터가 알파벳의 순서나 이름 등 **사용자 정의 구조체**일 경우 **별도의 비교 기준**(함수)이 필요하다.
 - 이를 사용자가 비교함수를 등록할 수 있도록 **함수 포인터**를 사용한다. comp가 참조할 함수의 예시는 다음과 같다.
   - 매개변수 `d1`에 전달되는 인자가 정렬 순서상 앞서서 `head`에 더 가까워야 하는 경우에는 `0`을 반환하고, 아닌 경우에 `1`을 반환한다.
@@ -200,3 +201,4 @@ ___
     }
     ```
 [(위로)](https://github.com/choisb/Study-DataStructure/tree/master/02_LinkedList#linked-list) / [(처음으로)](https://github.com/choisb/Study-DataStructure/blob/master/README.md#data-structure)
+___

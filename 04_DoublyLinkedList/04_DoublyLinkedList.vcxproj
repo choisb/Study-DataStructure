@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{EDEA0FEE-D85B-483B-ADE3-7CD188113F9E}</ProjectGuid>
-    <RootNamespace>LinkedList</RootNamespace>
+    <ProjectGuid>{90DA6D00-2A7D-490C-9BE1-6432E95E9B34}</ProjectGuid>
+    <RootNamespace>My04DoublyLinkedList</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,11 +123,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DoublyLinkedList.c" />
-    <ClCompile Include="SinglyLinkedList.c" />
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="README.md" />
+    <ClCompile Include="DBDLinkedList.c" />
+    <ClCompile Include="DBLinkedListMain.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DBDLinkedList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
