@@ -17,30 +17,35 @@ ___
 - 원하는 위치의 데이터에 바로 접근할 수 없다.
 - 필요할때 마다 메모리를 할당 해제할 수 있다.
 - 리스트의 중간지점에서 노드를 삽입하거나 삭제하기 쉽다.
- 
+
 ##### 연결 리스트의 종류
-연결 리스트에는 다음과 같은 종류가 있다.
-- 단순 연결 리스트
-- 더블 연결 리스트
-- 순환 리스트 ... (나중에 추가)
+- [단순 연결 리스트](https://github.com/choisb/Study-DataStructure/tree/master/02_LinkedList#-%EB%8B%A8%EC%88%9C-%EC%97%B0%EA%B2%B0-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EA%B5%AC%ED%98%84)
+- 원형 연결 리스트
+- 이중 연결 리스트
 
 [(위로)](https://github.com/choisb/Study-DataStructure/tree/master/02_LinkedList#linked-list) / [(처음으로)](https://github.com/choisb/Study-DataStructure/blob/master/README.md#data-structure)
 ___
 ## ✔ 단순 연결 리스트 구현
 - 단순 연결 리스트는 연결의 형타가 한쪽 방향으로 전개되고 시작과 끝이 분명히 존재한다.
+![단순 연결 리스트 도표](../img/01_LinkedList.png)
 
 ##### 단순 연결 리스트의 종류
 - 새 노드를 앞에서부터 추가
-  - 장점: 포인터 변수 tail이 불필요하다.
+  - 장점: 포인터 변수 tail이 필요 없다.
   - 단점: 저장된 순서를 유지하지 않는다.
   
 - 새 노드를 뒤에서 추가
   - 장점: 저장된 순서가 유지된다.
   - 단점: 포인터 변수 tail이 필요하다.
 
-여기서는 새 노드를 앞에서부터 추가하는 방식으로 구현할 예정. 
+>여기서는 새 노드를 앞에서부터 추가하는 방식으로 구현할 예정. 
 왜냐하면, 리스트는 반드시 저장 순서를 유지해야하는 자료구조가 아니기 때문에
-개발의 편의성 면에서 tail이 불필요한 방식을 택함. 
+개발의 편의성 면에서 tail이 필요없는 방식을 택함. 
+
+##### 단순 연결 리스트의 구현
+- 단순 연결 리스트 구현의 상세 내용에 대해서는 소스코드의 주석으로 대체.
+  - [`DlinkedList` 소스](https://github.com/choisb/Study-DataStructure/tree/master/02_LinkedList/DLinkedList)
+- 아래에는 단순 연결 리스트의 ADT와 구현과정에 등장하는 몇 가지 주요 아이디어만 서술.
 
 ##### 단순 연결 리스트의 ADT 정의
 - 앞서 다룬 List의 ADT는 모든 List들이 필수로 가져야 할 기능들이 모두 정의되어 있기 때문에 그대로 적용할 수 있다.
@@ -99,7 +104,7 @@ void SetSortRule(List * plist, int (*comp)(LData d1, LData d2));
 
 > 기존의 연결리스트
 
-![연결 리스트 도표](../img/01_LinkedList.png)
+![단순 연결 리스트 도표](../img/01_LinkedList.png)
 
 > 더미 노드가 추가된 연결리스트
 
@@ -132,9 +137,6 @@ typedef struct _linkedList
     int (*comp)(LData d1, LData d2);    // 정렬의 기준을 등록하기 위한 멤버
 }LinkedList;
 ```
-##### 단순 연결 리스트 구현
-- 단순 연결 리스트 구현의 상세 내용에 대해서는 소스코드의 주석으로 대체.
-- [`DlinkedList` 소스](https://github.com/choisb/Study-DataStructure/tree/master/02_LinkedList/DLinkedList)
 
 [(위로)](https://github.com/choisb/Study-DataStructure/tree/master/02_LinkedList#linked-list) / [(처음으로)](https://github.com/choisb/Study-DataStructure/blob/master/README.md#data-structure)
 
