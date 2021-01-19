@@ -88,7 +88,7 @@ LData LRemove(List * plist)
     plist->before->next = plist->cur->next;
     plist->cur = plist->before;
 
-    free(rpos);
+    free(rpos); // 노드 삭제
     (plist->numOfData)--;
     return rdata;
 }
