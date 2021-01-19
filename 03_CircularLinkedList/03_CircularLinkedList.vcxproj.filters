@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="READEME.md" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="CLinkedList.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -29,5 +26,8 @@
     <ClInclude Include="CLinkedList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
   </ItemGroup>
 </Project>

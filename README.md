@@ -15,7 +15,7 @@
   / [소스](https://github.com/choisb/Study-DataStructure/tree/master/01_List/ArrayList)
   - [연결 리스트: Linked List](https://github.com/choisb/Study-DataStructure/tree/master/02_LinkedList#linked-list)
   / [소스](https://github.com/choisb/Study-DataStructure/tree/master/02_LinkedList/DLinkedList)
-  - [원형 연결 리스트: Circular Linked List](https://github.com/choisb/Study-DataStructure/tree/master/03_LinkedList#Circular-Linked-List)
+  - [원형 연결 리스트: Circular Linked List](https://github.com/choisb/Study-DataStructure/tree/master/03_CircularLinkedList)
   / [소스](https://github.com/choisb/Study-DataStructure/tree/master/03_CircularLinkedList/CLinkedList)
   - 이중 연결 리스트: Double Linked List
   / 소스
