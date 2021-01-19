@@ -20,7 +20,7 @@ ___
 
 ##### 연결 리스트의 종류
 - [단순 연결 리스트](https://github.com/choisb/Study-DataStructure/tree/master/02_LinkedList#-%EB%8B%A8%EC%88%9C-%EC%97%B0%EA%B2%B0-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EA%B5%AC%ED%98%84)
-- 원형 연결 리스트
+- [원형 연결 리스트](https://github.com/choisb/Study-DataStructure/tree/master/03_CircularLinkedList)
 - 이중 연결 리스트
 
 [(위로)](https://github.com/choisb/Study-DataStructure/tree/master/02_LinkedList#linked-list) / [(처음으로)](https://github.com/choisb/Study-DataStructure/blob/master/README.md#data-structure)
