@@ -6,8 +6,10 @@ ___
 ## ✔ 원형 연결 리스트의 이해
 ##### 원형 연결 리스트란
 - 단순연결 리스트는 마지막 노드가 `NULL`을 가리킴.
+
 ![단순 연결 리스트 도표](../img/01_LinkedList.png)
 - 마지막 노드가 첫 번째 노드를 가리키면 원형 연결 리스트.
+
 ![원형 연결 리스트](../img/03_CircularLinkedList.png)
 
 ##### 변형 원형 연결 리스트
@@ -15,11 +17,13 @@ ___
   - `head`를 사용할때
     - 첫 번째 위치에 노드 삽입: n회 탐색 -> **O(n)**
     - 마지막 위치에 노드 삽입: n회 탐색 -> **O(n)**
+
 ![원형 연결 리스트 삽입 head](../img/04_CircularLinkedListHead.png)
 
   - `tail`을 사용할 때
     - 첫 번째 위치에 노드 삽입: 1회 탐색 -> **O(1)**
     - 마지막 위치에 노드 삽입: 2회 탐색 -> **O(1)**
+
 ![원형 연결 리스트 삽입 tail](../img/05_CircularLinkedListTail.png)
 
 [(위로)](https://github.com/choisb/Study-DataStructure/tree/master/03_CircularLinkedList) / [(처음으로)](https://github.com/choisb/Study-DataStructure/blob/master/README.md#data-structure)
