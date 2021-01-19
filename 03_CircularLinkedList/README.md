@@ -26,7 +26,7 @@ ___
 
 ![원형 연결 리스트 삽입 tail](../img/05_CircularLinkedListTail.png)
 
-[(위로)](https://github.com/choisb/Study-DataStructure/tree/master/03_CircularLinkedList) / [(처음으로)](https://github.com/choisb/Study-DataStructure/blob/master/README.md#data-structure)
+[(위로)](https://github.com/choisb/Study-DataStructure/tree/master/03_CircularLinkedList#Circular-Linked-List) / [(처음으로)](https://github.com/choisb/Study-DataStructure/blob/master/README.md#data-structure)
 
 ___
 ## ✔ 원형 연결 리스트의 구현
@@ -120,5 +120,5 @@ int LCount(List * plist);
     }
     ...
     ```
-[(위로)](https://github.com/choisb/Study-DataStructure/tree/master/03_CircularLinkedList) / [(처음으로)](https://github.com/choisb/Study-DataStructure/blob/master/README.md#data-structure)
+[(위로)](https://github.com/choisb/Study-DataStructure/tree/master/03_CircularLinkedList#Circular-Linked-List) / [(처음으로)](https://github.com/choisb/Study-DataStructure/blob/master/README.md#data-structure)
 ___
