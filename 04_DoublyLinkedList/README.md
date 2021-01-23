@@ -25,8 +25,8 @@ ___
 ___
 ## ✔ 양방향 연결 리스트의 구현
 - 양방향 연결 리스트 구현의 상세 내용에 대해서는 소스코드의 주석으로 대체.
-  - 기본 양방향 연결 리스트: [`DBLinkedList` 소스](https://github.com/choisb/Study-DataStructure/tree/master/04_DoublyLinkedList/DBLinkedList)
-  - 더미 노드 양방향 연결 리스트: [`DBDLinkedList` 소스](https://github.com/choisb/Study-DataStructure/tree/master/04_DoublyLinkedList/DBDLinkedList)
+  - 기본 양방향 연결 리스트 코드: [`DBLinkedList`](https://github.com/choisb/Study-DataStructure/tree/master/04_DoublyLinkedList/DBLinkedList)
+  - 더미 노드 양방향 연결 리스트 코드: [`DBDLinkedList`](https://github.com/choisb/Study-DataStructure/tree/master/04_DoublyLinkedList/DBDLinkedList)
  
 - 아래에는 양방향 연결 리스트의 ADT와 구현과정에 등장하는 몇 가지 주요 아이디어만 서술.
 
