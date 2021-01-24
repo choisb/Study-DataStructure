@@ -1,9 +1,8 @@
 ﻿# Stack
 ## 📝 목차
-- 스택의 이해와 ADT 정의
-- 스택의 배열 기반 구현
-- 스택의 연결 리스트기반 구현
-- 계산기 프로그램 구현
+- [스택의 이해와 ADT 정의](https://github.com/choisb/Study-DataStructure/tree/master/05_Stack#스택의-이해와-ADT-정의)
+- [스택의 구현](https://github.com/choisb/Study-DataStructure/tree/master/05_Stack#스택의-구현)
+- [계산기 프로그램 구현](https://github.com/choisb/Study-DataStructure/tree/master/05_Stack#계산기-프로그램-구현)
 ___
 
 ## ✔ 스택의 이해와 ADT 정의
@@ -33,6 +32,11 @@ Data SPeek(Stack * pstack);
 // 본 함수의 호출을 위해서는 데이터가 하나 이상 존재함이 보장되어야 한다.
 ```
 
+[
+[위로](https://github.com/choisb/Study-DataStructure/tree/master/05_Stack#stack) 
+/ 
+[처음으로](https://github.com/choisb/Study-DataStructure/blob/master/README.md#data-structure)
+]
 ___
 
 ## ✔ 스택의 구현
@@ -46,6 +50,12 @@ ___
 - 배열 기반 스택 소스: [`ArrayBaseStack`](https://github.com/choisb/Study-DataStructure/tree/master/05_Stack/ArrayBaseStack)
 - 리스트 기반 스택 소스: [`ListBaseStack`](https://github.com/choisb/Study-DataStructure/tree/master/05_Stack/ListBaseStack)
 
+[
+[위로](https://github.com/choisb/Study-DataStructure/tree/master/05_Stack#stack) 
+/ 
+[처음으로](https://github.com/choisb/Study-DataStructure/blob/master/README.md#data-structure)
+]
+___
 
 ## ✔ 계산기 프로그램 구현
 - 스택을 활용해서 아래와 같은 수식을 계산할 수 있는 계산기를 구현한다.
@@ -58,4 +68,11 @@ ___
   - 숫자는 0 ~ 9 사이의 한 자리 수 만 취급한다.
 
 - 계산기 구현에 대한 내용은 분량상 서적을 참고할것.
-- 스택을 활용한 계산기 구현 소스: [`InfixCalculator`]()  
+- 스택을 활용한 계산기 구현 소스: [`InfixCalculator`](https://github.com/choisb/Study-DataStructure/tree/master/05_Stack/InfixCalculator)  
+
+[
+[위로](https://github.com/choisb/Study-DataStructure/tree/master/05_Stack#stack) 
+/ 
+[처음으로](https://github.com/choisb/Study-DataStructure/blob/master/README.md#data-structure)
+]
+___
