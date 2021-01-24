@@ -1,8 +1,8 @@
 ﻿# Stack
 ## 📝 목차
-- [스택의 이해와 ADT 정의](https://github.com/choisb/Study-DataStructure/tree/master/05_Stack#스택의-이해와-ADT-정의)
-- [스택의 구현](https://github.com/choisb/Study-DataStructure/tree/master/05_Stack#스택의-구현)
-- [계산기 프로그램 구현](https://github.com/choisb/Study-DataStructure/tree/master/05_Stack#계산기-프로그램-구현)
+- [스택의 이해와 ADT 정의](https://github.com/choisb/Study-DataStructure/tree/master/05_Stack#-스택의-이해와-ADT-정의)
+- [스택의 구현](https://github.com/choisb/Study-DataStructure/tree/master/05_Stack#-스택의-구현)
+- [계산기 프로그램 구현](https://github.com/choisb/Study-DataStructure/tree/master/05_Stack#-계산기-프로그램-구현)
 ___
 
 ## ✔ 스택의 이해와 ADT 정의
