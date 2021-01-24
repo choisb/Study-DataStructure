@@ -18,15 +18,60 @@
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="InfixToPostfix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="ListBaseStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PostCalculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InfixCalculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InfixCalculator\PostCalculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InfixCalculator\InfixCalculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InfixCalculator\InfixToPostfix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InfixCalculator\ListBaseStack.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="InfixToPostfix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="ListBaseStack.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ListBaseStackMain.c">
+    <ClCompile Include="PostCalculator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InfixCalculator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InfixCalculatorMain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InfixCalculator\InfixCalculatorMain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InfixCalculator\InfixToPostfix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InfixCalculator\ListBaseStack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InfixCalculator\PostCalculator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InfixCalculator\InfixCalculator.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
