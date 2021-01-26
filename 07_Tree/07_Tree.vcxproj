@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{75CFFC57-3F37-4CBA-B987-754533823939}</ProjectGuid>
-    <RootNamespace>My06Queue</RootNamespace>
+    <ProjectGuid>{C8BCBF6A-6243-4DDF-8A7F-73B23239F686}</ProjectGuid>
+    <RootNamespace>My07Tree</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,7 +123,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="README.md" />
+    <ClInclude Include="BinaryTree.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BinaryTree.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
