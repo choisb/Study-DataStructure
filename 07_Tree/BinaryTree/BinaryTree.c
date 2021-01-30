@@ -30,18 +30,12 @@ BTreeNode * GetRightSubTree(BTreeNode * bt)
 
 void MakeLeftSubTree(BTreeNode * main, BTreeNode * sub)
 {
-    // 이미 왼쪽에 트리가 존재할 경우 전부 삭제 후 연결
-    if (main->left != NULL)
-        DeleteTree(main->left);
-
+    // left 에 트리가 존재할 경우 전부 삭제하는 코드 필요.
     main->left = sub;
 }
 void MakeRightSubTree(BTreeNode * main, BTreeNode * sub)
 {
-    // 이미 오른쪽에 트리가 존재할 경우 전부 삭제 후 연결
-    if (main->right != NULL)
-        DeleteTree(main->right);
-
+    // right 에 트기가 존재할 경우 전부 삭제하는 코드 필요.
     main->right = sub;
 }
 typedef void(*VisitFuncPtr)(BTData data);

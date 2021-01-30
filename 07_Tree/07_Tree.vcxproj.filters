@@ -18,12 +18,24 @@
     <ClInclude Include="BinaryTree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ExpressionTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ListBaseStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BinaryTree.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BinaryTreeMain.c">
+    <ClCompile Include="ListBaseStack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpressionMain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpressionTree.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

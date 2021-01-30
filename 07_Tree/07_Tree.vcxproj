@@ -124,10 +124,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h" />
+    <ClInclude Include="ExpressionTree.h" />
+    <ClInclude Include="ListBaseStack.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BinaryTree.c" />
-    <ClCompile Include="BinaryTreeMain.c" />
+    <ClCompile Include="ExpressionMain.c" />
+    <ClCompile Include="ExpressionTree.c" />
+    <ClCompile Include="ListBaseStack.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
