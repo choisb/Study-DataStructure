@@ -15,16 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SimpleHeap.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ClCompile Include="UsefullHeap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PriorityQueue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PriorityQueue.Main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SimpleHeap.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SimpleHeapMain.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <ClInclude Include="UsefullHeap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
