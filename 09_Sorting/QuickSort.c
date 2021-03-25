@@ -1,5 +1,24 @@
 #include <stdio.h>
 
+// arr[a], arr[b], arr[c] 중 중간값에 해당하는 index를 반환
+int midIdx3(int arr[], int a, int b, int c)
+{
+	if (arr[a] >= arr[b])
+		if (arr[b] >= arr[c])
+			return b;
+		else if (arr[a] <= arr[c])
+			return a;
+		else
+			return c;
+
+	else if (arr[a] >= arr[c])
+		return a;
+	else if (arr[b] >= arr[c])
+		return c;
+	else
+		return b;			
+}
+
 void Swap(int arr[], int idx1, int idx2)
 {
 	int temp = arr[idx1];
@@ -9,10 +28,14 @@ void Swap(int arr[], int idx1, int idx2)
 
 int Partition(int arr[], int left, int right)
 {
-	int pivot = arr[left];	// 피벗의 위치는 가장 왼쪽!
+	int pivotIdx = midIdx3(arr, left, right, (int)(left + right) / 2);
+	int pivot = arr[pivotIdx];	// 피벗의 위치는 가장 왼쪽!
+	
 	int low = left + 1;
 	int high = right;
 
+	printf("피벗: %d\n", pivot);
+	   
 	while (low <= high) // 교차하지 않았다면
 	{
 		while (pivot >= arr[low] && // low가 pivot보다 큰 수를 발견할 때까지 low++
@@ -27,7 +50,7 @@ int Partition(int arr[], int left, int right)
 			Swap(arr, low, high);
 	}
 
-	Swap(arr, left, high); // 피벗(left)과 high이 가리키는 대상 교환, high은 항상 pivot보다 작은 값을 보장함.
+	Swap(arr, pivotIdx, high); // 피벗과 high이 가리키는 대상 교환, high은 항상 pivot보다 작은 값을 보장함.
 	return high; // 옮겨진 피벗의 위치정보 반환
 }
 
@@ -42,7 +65,7 @@ void QuickSort(int arr[], int left, int right)
 }
 int main(void)
 {
-	int arr[3] = { 3, 3, 3 };
+	int arr[11] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 };
 	int len = sizeof(arr) / sizeof(int);
 	int i;
 

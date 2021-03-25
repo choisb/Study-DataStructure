@@ -9,9 +9,11 @@
 
 ## 📝 프로젝트 목차
 - [자료구조란](https://github.com/choisb/Study-DataStructure/blob/master/README.md#-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EB%9E%80)
+
+
 - [추상 자료형: Abstract Data Type (ADT)](https://github.com/choisb/Study-DataStructure/blob/master/README.md#-%EC%B6%94%EC%83%81-%EC%9E%90%EB%A3%8C%ED%98%95-abstract-data-type-adt)
 - [List](https://github.com/choisb/Study-DataStructure/tree/master/01_List#list)
-  - [배열기반 리스트: ArrayList](https://github.com/choisb/Study-DataStructure/tree/master/01_List#-%EB%B0%B0%EC%97%B4-%EA%B8%B0%EB%B0%98-%EC%88%9C%EC%B0%A8-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EA%B5%AC%ED%98%84)
+  - [배열기반 리스트: Array List](https://github.com/choisb/Study-DataStructure/tree/master/01_List#-%EB%B0%B0%EC%97%B4-%EA%B8%B0%EB%B0%98-%EC%88%9C%EC%B0%A8-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EA%B5%AC%ED%98%84)
   | [소스](https://github.com/choisb/Study-DataStructure/tree/master/01_List/ArrayList)
   - [연결 리스트: Linked List](https://github.com/choisb/Study-DataStructure/tree/master/02_LinkedList#linked-list)
   | [소스](https://github.com/choisb/Study-DataStructure/tree/master/02_LinkedList/DLinkedList)
@@ -19,15 +21,31 @@
   | [소스](https://github.com/choisb/Study-DataStructure/tree/master/03_CircularLinkedList/CLinkedList)
   - [이중 연결 리스트: Double Linked List](https://github.com/choisb/Study-DataStructure/tree/master/04_DoublyLinkedList#dubly-linked-list)
   | [소스](https://github.com/choisb/Study-DataStructure/tree/master/04_DoublyLinkedList/DBDLinkedList)
-- Stack and Queue
+- Stack
+  - 배열기반 스택: Array Base Stack
+  - 리스트 기반 스택: List Base Stack
+  - 스텍을 활용한 계산기: Infix Calculator
+- Queue
+  - 배열기반 큐: Circular Queue
+  - 리스트 기반 큐: List Base Queue
 - Tree
-   - Binary Tree
-   - Full Binary Tree
-   - Complete Binary Tree 
-   - BST (Binary Search Tree)  
-- Binary Heap  
-... 현재 작성중
-
+  - 이진 트리: Binary Tree
+  - Full Binary Tree
+  - Complete Binary Tree 
+  - BST (Binary Search Tree)  
+- Binary Heap & Priority Queue 
+  - 간단한 힙: Simple Heap
+  - 쓸만한 힙: Usefull Heap
+  - 우선순위 큐: Priority Queue
+- Sorting
+  - 버블 정렬: Bubble Sort
+  - 삽입 정렬: Insertion Sort
+  - 선택 정렬: Selection sort
+  - 힙 정렬: Heap Sort
+  - 병합 정렬: Merge Sort
+  - 퀵 정렬: Quick Sort
+  - 기수 정렬: Radix Sort
+  - 
 ___
 ## ✔ 자료구조란
  자료구조란 **데이터를 표현하고, 표현된 데이터를 처리하는 방법**을 뜻한다.
