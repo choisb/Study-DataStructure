@@ -19,11 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="RadixSort\ListBaseQueue.c" />
-    <ClCompile Include="RadixSort\RadixSort.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="RadixSort\ListBaseQueue.h" />
+    <ClCompile Include="SimpleSort\BubbleSort.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
