@@ -21,26 +21,24 @@
   | [소스](https://github.com/choisb/Study-DataStructure/tree/master/03_CircularLinkedList/CLinkedList)
   - [이중 연결 리스트: Double Linked List](https://github.com/choisb/Study-DataStructure/tree/master/04_DoublyLinkedList#dubly-linked-list)
   | [소스](https://github.com/choisb/Study-DataStructure/tree/master/04_DoublyLinkedList/DBDLinkedList)
-- Stack
-  - 배열기반 스택: Array Base Stack
-  - 리스트 기반 스택: List Base Stack
-  - 스텍을 활용한 계산기: Infix Calculator
-- Queue
-  - 배열기반 큐: Circular Queue
-  - 리스트 기반 큐: List Base Queue
-- Tree
-  - 이진 트리: Binary Tree
-  - Full Binary Tree
-  - Complete Binary Tree 
-  - BST (Binary Search Tree)  
-- Binary Heap & Priority Queue 
-  - 간단한 힙: Simple Heap
-  - 쓸만한 힙: Usefull Heap
-  - 우선순위 큐: Priority Queue
-- Sorting
-  - 버블 정렬: Bubble Sort
-  - 삽입 정렬: Insertion Sort
-  - 선택 정렬: Selection sort
+- [Stack](https://github.com/choisb/Study-DataStructure/tree/master/05_Stack#stack)
+  - [배열기반 스택: Array Base Stack](https://github.com/choisb/Study-DataStructure/tree/master/05_Stack/ArrayBaseStack)
+  - [리스트 기반 스택: List Base Stack](https://github.com/choisb/Study-DataStructure/tree/master/05_Stack/ListBaseStack)
+  - [스텍을 활용한 계산기: Infix Calculator](https://github.com/choisb/Study-DataStructure/tree/master/05_Stack/InfixCalculator)
+- [Queue](https://github.com/choisb/Study-DataStructure/tree/master/06_Queue#queue)
+  - [배열기반 큐: Circular Queue](https://github.com/choisb/Study-DataStructure/tree/master/06_Queue/CircularQueue)
+  - [리스트 기반 큐: List Base Queue](https://github.com/choisb/Study-DataStructure/tree/master/06_Queue/ListBaseQueue)
+- [Tree](https://github.com/choisb/Study-DataStructure/tree/master/07_Tree)
+  - [이진 트리: Binary Tree](https://github.com/choisb/Study-DataStructure/tree/master/07_Tree/BinaryTree)
+  - [수식표현 트리: Expression Tree](https://github.com/choisb/Study-DataStructure/tree/master/07_Tree/ExpressionTree)  
+- [Binary Heap & Priority Queue](https://github.com/choisb/Study-DataStructure/tree/master/08_priority_Queue_and_Heap) 
+  - [간단한 힙: Simple Heap](https://github.com/choisb/Study-DataStructure/tree/master/08_priority_Queue_and_Heap/SimpleHeap)
+  - [쓸만한 힙: Usefull Heap](https://github.com/choisb/Study-DataStructure/tree/master/08_priority_Queue_and_Heap/UsefullHeap)
+  - [우선순위 큐: Priority Queue](https://github.com/choisb/Study-DataStructure/tree/master/08_priority_Queue_and_Heap/PriorityQueue)
+- [Sorting](https://github.com/choisb/Study-DataStructure/tree/master/09_Sorting)
+  - [버블 정렬: Bubble Sort](https://github.com/choisb/Study-DataStructure/blob/master/09_Sorting/SimpleSort/BubbleSort.c)
+  - [삽입 정렬: Insertion Sort](https://github.com/choisb/Study-DataStructure/blob/master/09_Sorting/SimpleSort/InsertionSort.c)
+  - [선택 정렬: Selection sort](https://github.com/choisb/Study-DataStructure/blob/master/09_Sorting/SimpleSort/SelectionSort.c)
   - 힙 정렬: Heap Sort
   - 병합 정렬: Merge Sort
   - 퀵 정렬: Quick Sort
