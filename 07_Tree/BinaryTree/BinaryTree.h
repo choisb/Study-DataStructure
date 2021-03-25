@@ -5,9 +5,9 @@ typedef int BTData;
 
 typedef struct _btreeNode
 {
-    BTData data;
-    struct _bTreeNode * left;
-    struct _bTreeNode * right;
+	BTData data;
+	struct _bTreeNode * left;
+	struct _bTreeNode * right;
 }BTreeNode;
 
 BTreeNode * MakeBTreeNode(void);
@@ -23,12 +23,12 @@ BTreeNode * GetLeftSubTree(BTreeNode * bt);
 BTreeNode * GetRightSubTree(BTreeNode * bt);
 // 오른쪽  서브 트리의 주소 값을 반환한다.
 
-void MakeLeftSubTree(BTreeNode * main, BTreeNode * sub); 
+void MakeLeftSubTree(BTreeNode * main, BTreeNode * sub);
 // 왼쪽 서브 트리를 연결한다.
 void MakeRightSubTree(BTreeNode * main, BTreeNode * sub);
 // 오른쪽 서브 트리를 연결한다.
 
-typedef void (*VisitFuncPtr)(BTData data);
+typedef void(*VisitFuncPtr)(BTData data);
 // 노드 방문시 할 일을 유저가 정할 수 있도록 한다.
 
 void PreorderTraverse(BTreeNode * bt, VisitFuncPtr action);
