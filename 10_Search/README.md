@@ -1,9 +1,8 @@
 ﻿# Search
 ## 📝 목차
-- [탐색의 이해와 보간 탐색](https://github.com/choisb/Study-DataStructure/tree/master/06_Queue#-큐의-이해와-ADT-정의)
-- [큐의 구현](https://github.com/choisb/Study-DataStructure/tree/master/06_Queue#-큐의-구현)
-- [큐의 활용](https://github.com/choisb/Study-DataStructure/tree/master/06_Queue#-큐의-활용)
-- [Deque](https://github.com/choisb/Study-DataStructure/tree/master/06_Queue#-deque)
+- [탐색의 이해와 보간 탐색](https://github.com/choisb/Study-DataStructure/tree/master/10_Search#-탐색의-이해와-보간-탐색)
+- [이진 탐색 트리](https://github.com/choisb/Study-DataStructure/tree/master/10_Search#-이진-탐색-트리)
+- [균형 잡힌 이진 탐색 트리](https://github.com/choisb/Study-DataStructure/tree/master/10_Search#-균형-잡힌-이진-탐색-트리)
 ___
 
 ## ✔ 탐색의 이해와 보간 탐색
@@ -24,9 +23,10 @@ ___
 ___
 ## ✔ 이진 탐색 트리
 - 이진 탐색 트리는 탐색을 효율적으로 할 수 있도록 고안된 이진 트리의 일종이다.
-  - 이진 트리 정의
-    > 1. 루트 노드를 중심으로 두 개의 서브 트리로 나뉘어진다.
-    > 1. 나뉘어진 두 서브 트리도 모두 이진 트리어야 한다.
+- 어느 정도 균형이 잡혀 있는 트리에서는 O(log n)의 시간복잡도를 가진다.
+- 이진 트리 정의
+  > 1. 루트 노드를 중심으로 두 개의 서브 트리로 나뉘어진다.
+  > 1. 나뉘어진 두 서브 트리도 모두 이진 트리어야 한다.
 
 - 이진 탐색 트리는 이진 트리에 효율적인 데이터 탐색을 위해서 아래의 **데이터 저장 규칙**을 추가한 것이다.
   - 이진 탐색 트리의 규칙
@@ -39,3 +39,32 @@ ___
 
 ##### 📍 이진 탐색 트리의 구현
 - 이진 탐색 트리의 구현: [BinartSearchTree 소스](https://github.com/choisb/Study-DataStructure/tree/master/10_Search/BinarySearchTree)
+
+___
+## ✔ 균형 잡힌 이진 탐색 트리
+- 이진 탐색 트리에서 탐색은 트리의 균형이 어느정도 잡혀있다면 O(log n)의 시간 복잡도를 가진다.
+- 하지만 이진 탐색 트리는 균형이 맞지 않을 수록 O(n)에 가까운 시간 복잡도를 보인다.
+![이진 탐색 트리](../img/10_BinarySearchTree01.png)
+- 이처럼 이진 탐색 트리는 저장 순서에 따라 탐색의 성능에 큰 차이를 보이고, 이것이 이진 탐색 트리의 단점이다.
+- 이러한 이진 탐색 트리의 단점을 해결한 트리를 **균형 잡힌 이진 트리**라 한다.
+
+  - **균형 잡힌 이진 트리의 종류**
+    - AVL 트리
+    - 2-3 트리
+    - 2-3-4 트리
+    - Red-Black 트리
+    - B 트리
+(여기서는 균형잡힌 이진 트리의 예시로 AVL 트리를 다룸)
+ 
+##### 📍 AVL 트리
+- AVL 트리의 이름은 AVL 트리를 고안한 G.M.Adelson-Velskii와 E.M.Landis의 이름을 따서 정해졌다.
+- AVL 트리는 노드가 **추가** 또는 **삭제**될 때 트리의 균형상태를 파악해서 스스로 그 구조를 변경하여 균형을 잡는다.
+
+- AVL 트리에서는 균형 정도를 표현하기 위해서 **균형 인수(Balance Factor)**를 사용함.
+  > 균형 인수 = 왼쪽 서브 트리의 높이 - 오른쪽 서브 트리의 높이   
+  
+![균형 인수](../img/10_BalanceFactor01.png)
+- 균형 인수를 바탕으로 불균형이 발견되면 Rebalance 과정을 통해서 균형 잡힌 이진 탐색 트리로 만듦. 자세한 내용은 소스코드 참고
+
+##### 📍 AVL 트리의 구현
+- AVL 트리의 구현: [AVLTree 소스](https://github.com/choisb/Study-DataStructure/tree/master/10_Search/AVLTree)

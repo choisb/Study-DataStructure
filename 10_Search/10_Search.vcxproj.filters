@@ -18,21 +18,27 @@
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BinarySearchTree\BinarySearchTree.h">
+    <ClInclude Include="AVLTree\BinaryTree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BinarySearchTree\BinaryTree.h">
+    <ClInclude Include="AVLTree\AVLRebalance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AVLTree\BinarySearchTree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BinarySearchTree\BinaryTree.c">
+    <ClCompile Include="AVLTree\BinaryTree.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BinarySearchTree\BinarySearchTree.c">
+    <ClCompile Include="AVLTree\AVLRebalance.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BinarySearchTree\main.c">
+    <ClCompile Include="AVLTree\BinarySearchTree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AVLTree\main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -126,13 +126,15 @@
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BinarySearchTree\BinarySearchTree.h" />
-    <ClInclude Include="BinarySearchTree\BinaryTree.h" />
+    <ClInclude Include="AVLTree\AVLRebalance.h" />
+    <ClInclude Include="AVLTree\BinarySearchTree.h" />
+    <ClInclude Include="AVLTree\BinaryTree.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BinarySearchTree\BinarySearchTree.c" />
-    <ClCompile Include="BinarySearchTree\BinaryTree.c" />
-    <ClCompile Include="BinarySearchTree\main.c" />
+    <ClCompile Include="AVLTree\AVLRebalance.c" />
+    <ClCompile Include="AVLTree\BinarySearchTree.c" />
+    <ClCompile Include="AVLTree\BinaryTree.c" />
+    <ClCompile Include="AVLTree\main.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

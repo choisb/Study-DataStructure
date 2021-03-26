@@ -44,8 +44,12 @@
   - [퀵 정렬: Quick Sort](https://github.com/choisb/Study-DataStructure/blob/master/09_Sorting/QuickSort.c)
   - [기수 정렬: Radix Sort](https://github.com/choisb/Study-DataStructure/tree/master/09_Sorting/RadixSort)
 - [Search](https://github.com/choisb/Study-DataStructure/tree/master/10_Search#search)
+  - [보간 탐색: Interpolation Search](https://github.com/choisb/Study-DataStructure/tree/master/10_Search#-%ED%83%90%EC%83%89%EC%9D%98-%EC%9D%B4%ED%95%B4%EC%99%80-%EB%B3%B4%EA%B0%84-%ED%83%90%EC%83%89)
+  | [소스](https://github.com/choisb/Study-DataStructure/blob/master/10_Search/InterpolSearch.c)
   - [이진 탐색 트리: Binary Search Tree(BST)](https://github.com/choisb/Study-DataStructure/tree/master/10_Search#-%EC%9D%B4%EC%A7%84-%ED%83%90%EC%83%89-%ED%8A%B8%EB%A6%AC) 
   | [소스](https://github.com/choisb/Study-DataStructure/tree/master/10_Search/BinarySearchTree)
+  - [균형 잡힌 이진 탐색 트리](https://github.com/choisb/Study-DataStructure/tree/master/10_Search#-균형-잡힌-이진-탐색-트리)
+  | [소스](https://github.com/choisb/Study-DataStructure/tree/master/10_Search/AVLTree)
 ___
 ## ✔ 자료구조란
  자료구조란 **데이터를 표현하고, 표현된 데이터를 처리하는 방법**을 뜻한다.
