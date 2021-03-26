@@ -39,11 +39,13 @@
   - [버블 정렬: Bubble Sort](https://github.com/choisb/Study-DataStructure/blob/master/09_Sorting/SimpleSort/BubbleSort.c)
   - [삽입 정렬: Insertion Sort](https://github.com/choisb/Study-DataStructure/blob/master/09_Sorting/SimpleSort/InsertionSort.c)
   - [선택 정렬: Selection sort](https://github.com/choisb/Study-DataStructure/blob/master/09_Sorting/SimpleSort/SelectionSort.c)
-  - 힙 정렬: Heap Sort
-  - 병합 정렬: Merge Sort
-  - 퀵 정렬: Quick Sort
-  - 기수 정렬: Radix Sort
-  - 
+  - [힙 정렬: Heap Sort](https://github.com/choisb/Study-DataStructure/tree/master/09_Sorting/HeapSort)
+  - [병합 정렬: Merge Sort](https://github.com/choisb/Study-DataStructure/blob/master/09_Sorting/MergeSort.c)
+  - [퀵 정렬: Quick Sort](https://github.com/choisb/Study-DataStructure/blob/master/09_Sorting/QuickSort.c)
+  - [기수 정렬: Radix Sort](https://github.com/choisb/Study-DataStructure/tree/master/09_Sorting/RadixSort)
+- [Search](https://github.com/choisb/Study-DataStructure/tree/master/10_Search#search)
+  - [이진 탐색 트리: Binary Search Tree(BST)](https://github.com/choisb/Study-DataStructure/tree/master/10_Search#-%EC%9D%B4%EC%A7%84-%ED%83%90%EC%83%89-%ED%8A%B8%EB%A6%AC) 
+  | [소스](https://github.com/choisb/Study-DataStructure/tree/master/10_Search/BinarySearchTree)
 ___
 ## ✔ 자료구조란
  자료구조란 **데이터를 표현하고, 표현된 데이터를 처리하는 방법**을 뜻한다.

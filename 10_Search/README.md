@@ -38,4 +38,4 @@ ___
   - 앞서 구현한 이진트리를 사용함으로써 이진 탐색 트리가 이진 트리의 확장이라는 사실을 코드 레벨에서 확인할 수 있다.
 
 ##### 📍 이진 탐색 트리의 구현
-- 이진 탐색 트리의 구현: [BinartSearchTree 소스]()
+- 이진 탐색 트리의 구현: [BinartSearchTree 소스](https://github.com/choisb/Study-DataStructure/tree/master/10_Search/BinarySearchTree)
