@@ -39,7 +39,7 @@ BTreeNode * RemoveLeftSubTree(BTreeNode * bt);
 BTreeNode * RemoveRightSubTree(BTreeNode * bt);
 
 // 노드 방문시 할 일을 유저가 정할 수 있도록 한다.
-typedef void(*VisitFuncPtr)(BTData data);
+typedef void VisitFuncPtr (BTData data);
 
 // 트리에 대해서 전위 순회로 탐색
 void PreorderTraverse(BTreeNode * bt, VisitFuncPtr action);

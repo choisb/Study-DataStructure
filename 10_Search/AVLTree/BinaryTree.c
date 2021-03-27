@@ -76,8 +76,6 @@ BTreeNode * RemoveRightSubTree(BTreeNode * bt)
 }
 
 
-typedef void(*VisitFuncPtr)(BTData data);
-
 void PreorderTraverse(BTreeNode * bt, VisitFuncPtr action)
 {
 	if (bt == NULL)
