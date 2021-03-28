@@ -1,13 +1,13 @@
-#ifndef __PERSON_H__
+﻿#ifndef __PERSON_H__
 #define __PERSON_H__
 
 #define STR_LEN 50
 
 typedef struct _person
 {
-	int ssn;			// �ֹι�ȣ
-	char name[STR_LEN];	// �̸�
-	char addr[STR_LEN];	// �ּ�
+	int ssn;			// 주민번호
+	char name[STR_LEN];	// 이름
+	char addr[STR_LEN];	// 주소
 }Person;
 
 int GetSSN(Person * p);

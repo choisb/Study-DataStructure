@@ -1,9 +1,9 @@
-#ifndef __SLOT_H__
+﻿#ifndef __SLOT_H__
 #define __SLOT_H__
 
 #include "Person.h"
 
-typedef int Key;	// �ֹε�� ��ȣ
+typedef int Key;	// 주민등록 번호
 typedef Person * Value;
 
 enum SlotStatus {EMPTY, DELETED, INUSE};

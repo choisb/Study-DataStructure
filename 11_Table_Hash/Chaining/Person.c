@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include "Person.h"
@@ -10,9 +10,9 @@ int GetSSN(Person * p)
 
 void ShowPerInfo(Person * p)
 {
-	printf("�ֹε�Ϲ�ȣ: %d \n", p->ssn);
-	printf("�̸�: %s \n", p->name);
-	printf("�ּ�: %s \n\n", p->addr);
+	printf("주민등록번호: %d \n", p->ssn);
+	printf("이름: %s \n", p->name);
+	printf("주소: %s \n\n", p->addr);
 }
 
 Person * MakePersonData(int ssn, char * name, char * addr)
