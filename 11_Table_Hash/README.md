@@ -1,8 +1,8 @@
 ﻿# Table & Hash
 ## 📝 목차
-- [탐색의 이해와 보간 탐색](https://github.com/choisb/Study-DataStructure/tree/master/10_Search#-탐색의-이해와-보간-탐색)
-- [이진 탐색 트리](https://github.com/choisb/Study-DataStructure/tree/master/10_Search#-이진-탐색-트리)
-- [균형 잡힌 이진 탐색 트리](https://github.com/choisb/Study-DataStructure/tree/master/10_Search#-균형-잡힌-이진-탐색-트리)
+- [테이블(Table)자료구조의 이해](https://github.com/choisb/Study-DataStructure/tree/master/11_Table_Hash#-%ED%85%8C%EC%9D%B4%EB%B8%94table%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EC%9D%98-%EC%9D%B4%ED%95%B4)
+- [해쉬 함수와 충돌](https://github.com/choisb/Study-DataStructure/tree/master/11_Table_Hash#-%ED%95%B4%EC%89%AC-%ED%95%A8%EC%88%98%EC%99%80-%EC%B6%A9%EB%8F%8C)
+- [충돌(Collision) 문제의 해결책](https://github.com/choisb/Study-DataStructure/tree/master/11_Table_Hash#-%EC%B6%A9%EB%8F%8Ccollision-%EB%AC%B8%EC%A0%9C%EC%9D%98-%ED%95%B4%EA%B2%B0%EC%B1%85)
 ___
 
 ## ✔ 테이블(Table)자료구조의 이해
@@ -66,7 +66,7 @@ int GetHashValue(int empNum)
 
 
 ##### 📍 해쉬 함수의 구현
-- 소스코드 참고
+- 해쉬 함수 구현: [HashTable 소스](https://github.com/choisb/Study-DataStructure/tree/master/11_Table_Hash/HashTable)
 
 ##### 📍 좋은 해쉬 함수의 조건
 
@@ -121,4 +121,4 @@ ___
 - 체이닝은 슬롯을 연결 리스트로 구성하여 충돌이 발생하면 해당 자리에 슬롯을 새로 연결해나가는 방식으로 문제를 해결한다.
 
 ##### 📍 체이닝 구현
-- 소스코드 참고
+- 체이닝 구현: [Chaining 소스](https://github.com/choisb/Study-DataStructure/tree/master/11_Table_Hash/Chaining)
