@@ -126,14 +126,16 @@
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Person.h" />
-    <ClInclude Include="Slot.h" />
-    <ClInclude Include="Table.h" />
+    <ClInclude Include="Chaining\DLinkedList.h" />
+    <ClInclude Include="Chaining\Person.h" />
+    <ClInclude Include="Chaining\Slot2.h" />
+    <ClInclude Include="Chaining\Table2.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Person.c" />
-    <ClCompile Include="SimpleHashMain.c" />
-    <ClCompile Include="Table.c" />
+    <ClCompile Include="Chaining\DLinkedList.c" />
+    <ClCompile Include="Chaining\Person.c" />
+    <ClCompile Include="Chaining\ChainedTableMain.c" />
+    <ClCompile Include="Chaining\Table2.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

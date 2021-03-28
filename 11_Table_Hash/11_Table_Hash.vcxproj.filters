@@ -18,24 +18,30 @@
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Person.h">
+    <ClInclude Include="Chaining\Person.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Slot.h">
+    <ClInclude Include="Chaining\Slot2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Table.h">
+    <ClInclude Include="Chaining\DLinkedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Chaining\Table2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Person.c">
+    <ClCompile Include="Chaining\Person.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Table.c">
+    <ClCompile Include="Chaining\DLinkedList.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SimpleHashMain.c">
+    <ClCompile Include="Chaining\Table2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Chaining\ChainedTableMain.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
