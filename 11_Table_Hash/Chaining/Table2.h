@@ -1,4 +1,4 @@
-#ifndef __TABLE2_H__
+ï»¿#ifndef __TABLE2_H__
 #define __TABLE2_H__
 
 #include "Slot2.h"
@@ -15,16 +15,16 @@ typedef struct _table
 
 }Table;
 
-// Å×ÀÌºíÀÇ ÃÊ±âÈ­, »ç¿ëÀÚ·Î ºÎÅÍ ÇØ½ÃÇÔ¼ö¸¦ µî·Ï¹Þ´Â´Ù
+// í…Œì´ë¸”ì˜ ì´ˆê¸°í™”, ì‚¬ìš©ìžë¡œ ë¶€í„° í•´ì‹œí•¨ìˆ˜ë¥¼ ë“±ë¡ë°›ëŠ”ë‹¤
 void TBLInit(Table * pt, HashFunc * f);
 
-// Å×ÀÌºí¿¡ Å°¿Í °ªÀ» ÀúÀå
+// í…Œì´ë¸”ì— í‚¤ì™€ ê°’ì„ ì €ìž¥
 void TBLInsert(Table * pt, Key k, Value v);
 
-// Å°¸¦ ±Ù°Å·Î Å×ÀÌºí¿¡¼­ µ¥ÀÌÅÍ »èÁ¦
+// í‚¤ë¥¼ ê·¼ê±°ë¡œ í…Œì´ë¸”ì—ì„œ ë°ì´í„° ì‚­ì œ
 Value TBLDelete(Table * pt, Key k);
 
-// Å°¸¦ ±Ù°Å·Î Å×ÀÌºí¿¡¼­ µ¥ÀÌÅÍ Å½»ö
+// í‚¤ë¥¼ ê·¼ê±°ë¡œ í…Œì´ë¸”ì—ì„œ ë°ì´í„° íƒìƒ‰
 Value TBLSearch(Table * pt, Key k);
 
 #endif
