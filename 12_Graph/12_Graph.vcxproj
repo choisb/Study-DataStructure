@@ -22,15 +22,15 @@
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DFS2\ALGraphDFS2.c" />
-    <ClCompile Include="DFS2\ArrayBaseStack.c" />
-    <ClCompile Include="DFS2\DFSMain.c" />
-    <ClCompile Include="DFS2\DLinkedList.c" />
+    <ClCompile Include="BFS\ALGraphBFS.c" />
+    <ClCompile Include="BFS\CircularQueue.c" />
+    <ClCompile Include="BFS\BFSMain.c" />
+    <ClCompile Include="BFS\DLinkedList.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DFS2\ALGraphDFS2.h" />
-    <ClInclude Include="DFS2\ArrayBaseStack.h" />
-    <ClInclude Include="DFS2\DLinkedList.h" />
+    <ClInclude Include="BFS\ALGraphBFS.h" />
+    <ClInclude Include="BFS\CircularQueue.h" />
+    <ClInclude Include="BFS\DLinkedList.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

@@ -18,27 +18,27 @@
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DFS2\ALGraphDFS2.c">
+    <ClCompile Include="BFS\DLinkedList.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DFS2\ArrayBaseStack.c">
+    <ClCompile Include="BFS\CircularQueue.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DFS2\DFSMain.c">
+    <ClCompile Include="BFS\ALGraphBFS.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DFS2\DLinkedList.c">
+    <ClCompile Include="BFS\BFSMain.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DFS2\ALGraphDFS2.h">
+    <ClInclude Include="BFS\DLinkedList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DFS2\ArrayBaseStack.h">
+    <ClInclude Include="BFS\CircularQueue.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DFS2\DLinkedList.h">
+    <ClInclude Include="BFS\ALGraphBFS.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

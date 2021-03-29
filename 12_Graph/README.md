@@ -1,8 +1,9 @@
 ﻿# Graph
 ## 📝 목차
 - [그래프의 이해와 종류](https://github.com/choisb/Study-DataStructure/tree/master/11_Table_Hash#-%ED%85%8C%EC%9D%B4%EB%B8%94table%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EC%9D%98-%EC%9D%B4%ED%95%B4)
-- [해쉬 함수와 충돌](https://github.com/choisb/Study-DataStructure/tree/master/11_Table_Hash#-%ED%95%B4%EC%89%AC-%ED%95%A8%EC%88%98%EC%99%80-%EC%B6%A9%EB%8F%8C)
-- [충돌(Collision) 문제의 해결책](https://github.com/choisb/Study-DataStructure/tree/master/11_Table_Hash#-%EC%B6%A9%EB%8F%8Ccollision-%EB%AC%B8%EC%A0%9C%EC%9D%98-%ED%95%B4%EA%B2%B0%EC%B1%85)
+- [그래프의 구현](https://github.com/choisb/Study-DataStructure/tree/master/11_Table_Hash#-%ED%95%B4%EC%89%AC-%ED%95%A8%EC%88%98%EC%99%80-%EC%B6%A9%EB%8F%8C)
+- [그래프의 탐색 - DFS](https://github.com/choisb/Study-DataStructure/tree/master/11_Table_Hash#-%EC%B6%A9%EB%8F%8Ccollision-%EB%AC%B8%EC%A0%9C%EC%9D%98-%ED%95%B4%EA%B2%B0%EC%B1%85)
+- [그래프의 탐색 - BFS]()
 ___
 
 ## ✔ 그래프의 이해와 종류
@@ -64,13 +65,13 @@ ___
   - 깊이 우선 탐색: **Depth First Search** (**DFS**)
   - 너비 우선 탐색: **Breadth First Search** (**BFS**)  
 
-##### 📍 깊이 우선 탐색: DFS
+##### 📍 깊이 우선 탐색: Depth First Search(DFS)
 - 깊이 우선 탐색 (DFS)란 특정 노드에서 시작해 다음 분기로 넘어가기 전에 해당 분기를 완벽하게 탐색하는 방법이다.
 - DFS를 탐색하기 위해서는 **Stack**이필요하다. (BFS와 가장 큰 차이점)
 - DFS의 탐색 순서는 다음과 같다.
 
 >1. 첫 시작 **정점**을 **Stack**에 **Push** 한다.  
->2. **Sack**에서 **정점**을 **Pop** 하여 그 정점을 **방문**한다.  
+>2. **Sack**에서 **정점**을 **Pop** 하고, **Pop**된 정점을 **방문**한다.  
 >3. 방문한 정점의 **인접한 정점**중 **Stack**에 **Push**된 적 없는 정점을 **Push**한다  
 >4. **Stack**이 비어있지 않다면 2.부터 다시 반복한다.
 
@@ -127,9 +128,10 @@ void DFShowGraphVertex(ALGraph * pg, int startV)
             do
             {
                 // 스택에 Push된 적 없는 정점이라면 스택에 Push
-                if (IsPushedVertex(pg, nextV) == FALSE) {
-                SPush(&stack, nextV);
-                MarkVertex(pg, nextV);
+                if (IsPushedVertex(pg, nextV) == FALSE) 
+                {
+                    SPush(&stack, nextV);
+                    MarkVertex(pg, nextV);
                 }
             } while (LNext(&(pg->adjList[visitV]), &nextV) == TRUE);
         }
@@ -156,8 +158,100 @@ A D C F E B
 
 ___
 ## ✔ 그래프의 탐색 - BFS
-##### 📍 너비 우선 탐색: BFS
+##### 📍 너비 우선 탐색: Breadth First Search(BFS)
 - 너비 우선 탐색(BFS)란 시작 정점을 방문한 후 시작 정점에 인접한 모든 정점들을 우선 방문하는 방법이다.
 - BFS를 구현하기 위해서는 **Queue**가 필요하다. (DFS와의 가장 큰 차이점)
   - DFS에서 Stack을 사용했던 부분을 Queue로 바꾸면 BFS로 동작한다.
 - BFS의 탐색 순서는 다음과 같다.
+
+>1. 첫 시작 **정점**을 **Queue**에 **Enqueue** 한다.  
+>2. **Queue**에서 **정점**을 **Dequeue** 하여 **Dequeue**된 정점을 **방문**한다.  
+>3. 방문한 정점의 **인접한 정점**중 **Queue**에 **Enqueue**된 적 없는 정점을 **Enqueue**한다  
+>4. **Queue**가 비어있지 않다면 2.부터 다시 반복한다.
+
+
+
+##### 📍 DFS의 이해
+- BFS를 그림으로 표현하면 다음과 같다
+
+![BFS](../img/32_BFS.png)
+1. 그래프와 함께 Queue 하나와, Queue에 Enqueue된 기록을 관리할 배열 하나를 선언한다.
+![BFS](../img/33_BFS.png)
+2. 시작지점 A를 Queue에 Enqueue하고 A가 Queue에 들어갔음을 표시한다. 
+![BFS](../img/34_BFS.png)
+3. Queue에서 A를 Dequeue하고 A를 방문한다.
+![BFS](../img/35_BFS.png)
+4. A의 인접한 정점 중 Queue에 Enqueue된 적 없는 정점(B,D)를 Enqueue한다. 
+![BFS](../img/36_BFS.png)
+5. Queue가 비어있지 않기 때문에 Queue에서 Dequeue하고 Dequeue된 정점 B를 방문한다.
+![BFS](../img/37_BFS.png)
+6. B의 인접한 정점 중 Queue에 Enqueue된 적 없는 정점(C)를 Enqueue한다. 
+![BFS](../img/38_BFS.png)
+7. Queue가 비어있지 않기 때문에 Queue에서 Dequeue하고 Dequeue된 정점 D를 방문한다.
+![BFS](../img/39_BFS.png)
+8. D의 인접한 정점 중 Queue에 Enqueue된 적 없는 정점이 없기에 Enqueue할 수 없다.
+![BFS](../img/40_BFS.png)
+9. Queue가 비어있지 않기 때문에 Queue에서 Dequeue하고 Dequeue된 정점 C를 방문한다.
+![BFS](../img/41_BFS.png)
+10. C의 인접한 정점 중 Queue에 Enqueue된 적 없는 정점(E,F)를 Enqueue한다.
+![BFS](../img/42_BFS.png)
+11. Queue가 비어있지 않기 때문에 Queue에서 Dequeue하고 Dequeue된 정점 E를 방문한다.
+ 더 이상 Enqueue할 수 있는 정점은 존재하지 않기 때문에 Enqueue는 하지 않는다. 
+![BFS](../img/43_BFS.png)
+12. Queue가 비어있지 않기 때문에 Queue에서 Dequeue하고 Dequeue된 정점 F를 방문한다.
+
+13. Queue가 비었기 때문에 탐색을 종료한다.
+
+
+##### 📍 BFS의 구현
+- 소스코드로 나타내면 다음과 같다.
+```c
+void BFShowGraphVertex(ALGraph * pg, int startV)
+{
+    Queue queue;
+    int visitV;
+    int nextV;
+
+    QueueInit(&queue);          // BFS를 위한 큐의 초기화
+    Enqueue(&queue, startV);    // 시작점을 큐에 Enqueue
+    MarkVertex(pg, startV);     // startV 정점이 queue에 삽입되었음을 마킹
+
+    do
+    {
+        // queue의 첫번째 정점을 Dequeue하고 방문할 정점으로 저장
+        visitV = Dequeue(&queue);
+        VisitVertex(visitV);	// 정점 방문
+	
+        // 현재 방문한 정점의 인접 정점 중 queue에 들어간 적 없는 정점들 모두 Enqueue 
+        if (LFirst(&(pg->adjList[visitV]), &nextV) == TRUE)
+        {
+            do
+            {
+                // queue에 Enqueue된 적 없는 정점이라면 queue에 Enqueue
+                if (IsEnqueuedVertex(pg, nextV) == FALSE) 
+                {
+                    Enqueue(&queue, nextV);
+                    MarkVertex(pg, nextV);
+                }
+            } while (LNext(&(pg->adjList[visitV]), &nextV) == TRUE);
+        }
+		
+    } while (!QIsEmpty(&queue)); // queue가 비어질때 까지 반복
+
+
+    // 이후의 탐색을 위해서 탐색 정보 초기화
+    memset(pg->queueInfo, 0, sizeof(int) * pg->numV);
+}
+```
+> 출력 결과  
+```
+A와 연결된 정점: B D
+B와 연결된 정점: A C
+C와 연결된 정점: B D E F
+D와 연결된 정점: A C
+E와 연결된 정점: C F
+F와 연결된 정점: C E
+A B D C E F
+```
+- 전체 구현 코드 확인하기: [BFS 소스](https://github.com/choisb/Study-DataStructure/tree/master/12_Graph/BFS)
+  - BFS의 구현에는 앞서 구현한 CircularQueue와 DLinkedList가 사용되었다. 
