@@ -22,13 +22,15 @@
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ALGraph\ALGraph.c" />
-    <ClCompile Include="ALGraph\ALGraphMain.c" />
-    <ClCompile Include="ALGraph\DLinkedList.c" />
+    <ClCompile Include="DFS2\ALGraphDFS2.c" />
+    <ClCompile Include="DFS2\ArrayBaseStack.c" />
+    <ClCompile Include="DFS2\DFSMain.c" />
+    <ClCompile Include="DFS2\DLinkedList.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ALGraph\ALGraph.h" />
-    <ClInclude Include="ALGraph\DLinkedList.h" />
+    <ClInclude Include="DFS2\ALGraphDFS2.h" />
+    <ClInclude Include="DFS2\ArrayBaseStack.h" />
+    <ClInclude Include="DFS2\DLinkedList.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
