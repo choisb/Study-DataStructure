@@ -18,27 +18,42 @@
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BFS\DLinkedList.c">
+    <ClCompile Include="Kruskal\ArrayBaseStack.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BFS\CircularQueue.c">
+    <ClCompile Include="Kruskal\DLinkedList.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BFS\ALGraphBFS.c">
+    <ClCompile Include="Kruskal\ALGraphKruskal.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BFS\BFSMain.c">
+    <ClCompile Include="Kruskal\PriorityQueue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kruskal\UsefullHeap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kruskal\KruskalMain.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BFS\DLinkedList.h">
+    <ClInclude Include="Kruskal\ArrayBaseStack.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BFS\CircularQueue.h">
+    <ClInclude Include="Kruskal\DLinkedList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BFS\ALGraphBFS.h">
+    <ClInclude Include="Kruskal\ALGraphKruskal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kruskal\PriorityQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kruskal\UsefullHeap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kruskal\ALEdge.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

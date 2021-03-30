@@ -22,15 +22,20 @@
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BFS\ALGraphBFS.c" />
-    <ClCompile Include="BFS\CircularQueue.c" />
-    <ClCompile Include="BFS\BFSMain.c" />
-    <ClCompile Include="BFS\DLinkedList.c" />
+    <ClCompile Include="Kruskal\ALGraphKruskal.c" />
+    <ClCompile Include="Kruskal\ArrayBaseStack.c" />
+    <ClCompile Include="Kruskal\KruskalMain.c" />
+    <ClCompile Include="Kruskal\DLinkedList.c" />
+    <ClCompile Include="Kruskal\PriorityQueue.c" />
+    <ClCompile Include="Kruskal\UsefullHeap.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BFS\ALGraphBFS.h" />
-    <ClInclude Include="BFS\CircularQueue.h" />
-    <ClInclude Include="BFS\DLinkedList.h" />
+    <ClInclude Include="Kruskal\ALEdge.h" />
+    <ClInclude Include="Kruskal\ALGraphKruskal.h" />
+    <ClInclude Include="Kruskal\ArrayBaseStack.h" />
+    <ClInclude Include="Kruskal\DLinkedList.h" />
+    <ClInclude Include="Kruskal\PriorityQueue.h" />
+    <ClInclude Include="Kruskal\UsefullHeap.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
