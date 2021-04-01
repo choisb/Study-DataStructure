@@ -4,7 +4,7 @@
 - [그래프의 구현](https://github.com/choisb/Study-DataStructure/tree/master/12_Graph#-%EA%B7%B8%EB%9E%98%ED%94%84%EC%9D%98-%EA%B5%AC%ED%98%84)
 - [그래프의 탐색 - DFS](https://github.com/choisb/Study-DataStructure/tree/master/12_Graph#-%EA%B7%B8%EB%9E%98%ED%94%84%EC%9D%98-%ED%83%90%EC%83%89---dfs)
 - [그래프의 탐색 - BFS](https://github.com/choisb/Study-DataStructure/tree/master/12_Graph#-%EA%B7%B8%EB%9E%98%ED%94%84%EC%9D%98-%ED%83%90%EC%83%89---bfs)
-- [최소 비용 신장 트리 - Kruskal](https://github.com/choisb/Study-DataStructure/tree/master/12_Graph#최소-비용-신장-트리---Kruskal)
+- [최소 비용 신장 트리 - Kruskal](https://github.com/choisb/Study-DataStructure/tree/master/12_Graph#-최소-비용-신장-트리---Kruskal)
 ___
 
 ## ✔ 그래프의 이해와 종류
